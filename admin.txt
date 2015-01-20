@@ -1,0 +1,89 @@
+
+
+:01year_month:201501
+sql:SELECT  count(*) as cc from t_bill WHERE DATE_FORMAT(kenshu_date, '%Y%m') >= 201410 AND DATE_FORMAT(kenshu_date, '%Y%m') <= 201509 
+32: 32
+
+year_month:2015001
+sql:SELECT  count(*) as cc from t_bill WHERE DATE_FORMAT(kenshu_date, '%Y%m') >= 201410 AND DATE_FORMAT(kenshu_date, '%Y%m') <= 201509 
+32: 32
+
+
+strMon:01year_month:201501
+sql:SELECT  count(*) as cc from t_bill WHERE DATE_FORMAT(kenshu_date, '%Y%m') >= 201410 AND DATE_FORMAT(kenshu_date, '%Y%m') <= 201509 
+33: 33
+
+year_month:2015001
+sql:SELECT  count(*) as cc from t_bill WHERE DATE_FORMAT(kenshu_date, '%Y%m') >= 201410 AND DATE_FORMAT(kenshu_date, '%Y%m') <= 201509 
+33: 33
+
+
+strMon:01
+=======year_month:201501
+sql:SELECT  count(*) as cc from t_bill WHERE DATE_FORMAT(kenshu_date, '%Y%m') >= 201410 AND DATE_FORMAT(kenshu_date, '%Y%m') <= 201509 
+: 
+
+year_month:2015001
+sql:SELECT  count(*) as cc from t_bill WHERE DATE_FORMAT(kenshu_date, '%Y%m') >= 201410 AND DATE_FORMAT(kenshu_date, '%Y%m') <= 201509 
+34: 34
+
+
+strMon:01
+=======year_month:201501
+sql:SELECT  count(*) as cc from t_bill WHERE DATE_FORMAT(kenshu_date, '%Y%m') = 201501 
+: 
+
+year_month:2015001
+sql:SELECT  count(*) as cc from t_bill WHERE DATE_FORMAT(kenshu_date, '%Y%m') = 201501 
+100: 100
+
+
+strMon:01
+=======year_month:201501
+sql:SELECT  count(*) as cc from t_bill WHERE DATE_FORMAT(kenshu_date, '%Y%m') = 201501 
+: 
+
+year_month:2015001
+sql:SELECT  count(*) as cc from t_bill WHERE DATE_FORMAT(kenshu_date, '%Y%m') = 201501 
+15: 15
+
+
+strMon:01
+=======year_month:201501
+sql:SELECT  count(*) as cc from t_bill WHERE DATE_FORMAT(kenshu_date, '%Y%m') = 201501 
+: 
+
+year_month:2015001
+sql:SELECT  count(*) as cc from t_bill WHERE DATE_FORMAT(kenshu_date, '%Y%m') = 201501 
+16: 16
+
+
+strMon:02
+=======year_month:201502
+sql:SELECT  count(*) as cc from t_bill WHERE DATE_FORMAT(kenshu_date, '%Y%m') = 201502 
+: 
+
+year_month:2015002
+sql:SELECT  count(*) as cc from t_bill WHERE DATE_FORMAT(kenshu_date, '%Y%m') = 201502 
+2: 2
+
+
+strMon:02
+=======year_month:201502
+sql:SELECT  count(*) as cc from t_bill WHERE DATE_FORMAT(kenshu_date, '%Y%m') = 201502 
+: 
+
+year_month:2015002
+sql:SELECT  count(*) as cc from t_bill WHERE DATE_FORMAT(kenshu_date, '%Y%m') = 201502 
+3: 3
+
+
+strMon:1
+=======year_month:20151
+sql:SELECT  count(*) as cc from t_bill WHERE DATE_FORMAT(kenshu_date, '%Y%m') = 20151 
+: 
+
+year_month:201501
+sql:SELECT  count(*) as cc from t_bill WHERE DATE_FORMAT(kenshu_date, '%Y%m') = 20151 
+200: 200
+
